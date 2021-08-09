@@ -21,6 +21,42 @@
 
 .home > .list,
 .blog > .list,
+
+.publications > .list
+    > .item
+        display: block
+        width: 95%
+        margin: 0 auto
+
+    > .item > .url
+        width: 100%
+        margin-top: 25px
+        display: block
+        padding: 0px 0
+        text-decoration: none
+
+    > .item > .url > .title
+
+        margin: 0 
+        width: 100%
+        font-weight: 400
+        transition: all ease-in-out .2s
+
+    > .item:hover > .url > .title
+        color: $delta
+
+    > .item > .authors
+        margin: 10px 20px
+        font-weight: 300
+        
+
+    > .item > .conference
+        margin: 10px 20px
+        font-style: italic
+        font-weight: 300
+        margin-bottom : 50px,
+
+
 .projects > .list
     > .item
         display: block
@@ -30,17 +66,17 @@
     > .item > .url
         width: 100%
         display: block
-        padding: 20px 0
+        padding: 100px 0
         text-decoration: none
 
     > .item > .url > .title
-        margin: 0
-        width: 75%
-        font-weight: 500
+        margin: 0 
+        width: 100%
+        font-weight: 300
         transition: all ease-in-out .2s
 
     > .item:hover > .url > .title
-        color: $delta
+        color: $delta,
 
     // maybe we can't nest html5 elements
     // can you help me?
@@ -56,7 +92,7 @@
         transition: all ease-in-out .2s
 
     .item:hover .url aside
-        color: $alpha
+        color: $alpha,
 
 .blog > .list > .item > .url,
 .projects > .list > .item > .url
@@ -68,3 +104,16 @@
         position: relative
         top: -4px
         margin-right: 10px
+
+.educations > .list
+    > .item
+        display: block
+        width: 95%
+        margin: 0 auto,
+
+    > .item > .school
+        margin: 0 
+        width: 100%
+        font-weight: 200
+        transition: all ease-in-out .2s,
+

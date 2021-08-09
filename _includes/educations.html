@@ -1,0 +1,11 @@
+<section class="list">
+    {% for education_hash in site.education-list %}
+    {% assign education = education_hash[1] %}
+        <div class="item">
+                <h3 class="school">{{ education.school }}</h3>
+                <h4 class="authors">{{ education.degree }}</h4>
+                <h5 class="conference">{{education.gpa}}</h5>
+
+        </div>
+    {% endfor %}
+</section>

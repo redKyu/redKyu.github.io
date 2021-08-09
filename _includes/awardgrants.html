@@ -1,0 +1,11 @@
+<section class="list">
+    {% for awardgrant_hash in site.awardgrant-list %}
+    {% assign awardgrant = awardgrant_hash[1] %}
+        <div class="item">
+                <h3 class="school">{{ awardgrant.title }}</h3>
+                <h4 class="authors">{{ awardgrant.fundsource }}</h4>
+
+
+        </div>
+    {% endfor %}
+</section>

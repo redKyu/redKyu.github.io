@@ -1,24 +1,24 @@
 # Your name and what you do
-name: Eve Adam
-bio: Software Developer
+name: Hong Kyu, Lee
+bio: Research Assistant
 
-description: Eve Adam's Personal Website
+description: Hongkyu Lee's personal website
 
 # Profile picture
 picture: assets/images/profile.jpg
 
 # your url: http://USERNAME.github.io
-url: https://jibolash.github.io/Eve/
+url: https://redKyu.github.io/
 
 # do you want to display social media links? true or false
 social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
-twitter: mytwitter
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+# twitter: mytwitter
+linkedin: https://www.linkedin.com/in/hongkyu-lee-9b28ab20a/
+# github: mygithub
+email: hongkyu.l33@gmail.com
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -35,13 +35,66 @@ email: myemail@gmail.com
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # do you want to display an about section? true or false
 about: true
 
+educations: True
+education-list:
+    KSU:
+        school: Kennesaw State University
+        degree: Master of Science in Computer Science
+        gpa: 'GPA: 4.0/4.0'
+    HYU:
+        school: Hanyang University ERICA
+        degree: Bachelor of Science in Electrical Engineering
+        gpa: 'GPA: 3.81/4.0'
+
+# publications
+publications: true
+
+publication-list:
+    ICC:
+        title: On Defensive Neural Network Against Federated Learning
+        authors:  Hongkyu Lee, Jeehyeong Kim, Rasheed Hussain, Sunghyun Cho, and Junggab Son
+        conference: 'IEEE International Conference on Communications (ICC) Communication and Information Systems Security Symposium (CISS), pages 1-6, June, 2021'
+        url: https://asdf
+
+    Elsevier:
+        title: 'Digestive Neural Networks: A Novel Defense Strategy Against Inference Attacks in Federated Learning'
+        authors:  Hongkyu Lee, Jeehyeong Kim, Seyoung Ahn, Rasheed Hussain, Sunghyun Cho, and Junggab Son
+        conference: Computers & Security, 109 (), pages , October, 2021.
+        url: https://www.sciencedirect.com/science/article/pii/S0167404821002029?via%3Dihub
+
+    Luke:
+        title:  Efficient yet Robust Privacy Preservation for MPEG-DASH Based Video Streaming
+        authors: Luke Cranfil, Jeehyeong Kim, Hongkyu Lee, Victor Youdom Kemmoe, Sunghyun Cho, and Junggab Son
+        conference: Security and Communication Networks, (), pages , , 2021
+        url: https://
+
+awardgrants: true
+
+awardgrant-list:
+    ICC:
+        title: ICC 2021 Student Grant
+        fundsource: 'US National Science Foundation (NSF)'
+
+       
+
+# do you want to display a projects section? true or false
+projects: false
+
+# add your projects here
+project-list:
+    example:
+        name: title
+        description: description
+        url: https://github.com/jibolash/Eve
+
+
 # do you want to display a skills section? true or false
-skills: true
+skills: false
 
 # add your skills here
 skills-list:
@@ -52,29 +105,7 @@ skills-list:
     - Java, Android
     - Python
     - MySQL - MongoDB    
-    - Git    
-
-# do you want to display a projects section? true or false
-projects: true
-
-# add your projects here
-project-list:
-    Eve:
-        name: Eve
-        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites
-        url: https://github.com/jibolash/Eve
-    World-Cup-History:
-        name: World Cup  History
-        description: npm package for FIFA World cup historical data
-        url: https://github.com/jibolash/world-cup-history
-    Tweeter:
-        name: Tweeter
-        description: A Twitter inspired web application built with Angular 5
-        url: https://tweetermum.herokuapp.com
-    Transcend:
-        name: Transcend
-        description: An android app for meditation and mindfulness
-        url: https://github.com/Khosbayar/Transcend
+    - Git 
 
 
 # do you want to display the theme attribution? true or false

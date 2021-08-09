@@ -1,0 +1,13 @@
+<section class="list">
+    {% for publication_hash in site.publication-list %}
+    {% assign publication = publication_hash[1] %}
+        <div class="item">
+                <a class="url" href="{{ publication.url }}">
+                    <h3 class="title">{{ publication.title }}</h3>
+                </a>
+                <h4 class="authors">{{ publication.authors }}</h4>
+                <h5 class="conference">{{publication.conference}}</h5>
+
+        </div>
+    {% endfor %}
+</section>

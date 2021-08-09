@@ -9,15 +9,37 @@
     {% include about.html %}
 {% endif %}
 
-{% if site.skills %}
+{% if site.publications %}
     <nav class="nav-home">
         <ul class="list">
             <li class="item">
-                <h2>Skills</h2>
+                <h2>Publications</h2>
             </li>
         </ul>
     </nav>
-    {% include skills.html %}
+    {% include publications.html %}
+{% endif %}
+
+{% if site.awardgrants %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Awards and Grants</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include awardgrants.html %}
+{% endif %}
+
+{% if site.educations %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Educations</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include educations.html %}
 {% endif %}
 
 {% if site.projects %}
@@ -30,3 +52,16 @@
     </nav>
     {% include projects.html %}
 {% endif %}
+
+{% if site.skills %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Skills</h2>
+            </li>
+        </ul>
+    </nav>
+    {% include skills.html %}
+{% endif %}
+
+
