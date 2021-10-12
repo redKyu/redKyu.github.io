@@ -1,6 +1,6 @@
 # Your name and what you do
 name: Hong Kyu, Lee
-bio: Research Assistant
+bio: Software Engineer
 
 description: Hongkyu Lee's personal website
 
@@ -18,7 +18,8 @@ social-media: true
 # twitter: mytwitter
 linkedin: https://www.linkedin.com/in/hongkyu-lee-9b28ab20a/
 # github: mygithub
-email: hongkyu.l33@gmail.com
+email: hongkyu.lee@IEEE.org
+# cv: cv
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -40,6 +41,7 @@ width: large
 # do you want to display an about section? true or false
 about: true
 
+
 educations: True
 education-list:
     KSU:
@@ -59,7 +61,7 @@ publication-list:
         title: On Defensive Neural Network Against Federated Learning
         authors:  Hongkyu Lee, Jeehyeong Kim, Rasheed Hussain, Sunghyun Cho, and Junggab Son
         conference: 'IEEE International Conference on Communications (ICC) Communication and Information Systems Security Symposium (CISS), pages 1-6, June, 2021'
-        url: https://asdf
+        url: https://ieeexplore.ieee.org/abstract/document/9500936
 
     Elsevier:
         title: 'Digestive Neural Networks: A Novel Defense Strategy Against Inference Attacks in Federated Learning'
@@ -71,7 +73,7 @@ publication-list:
         title:  Efficient yet Robust Privacy Preservation for MPEG-DASH Based Video Streaming
         authors: Luke Cranfil, Jeehyeong Kim, Hongkyu Lee, Victor Youdom Kemmoe, Sunghyun Cho, and Junggab Son
         conference: Security and Communication Networks, (), pages , , 2021
-        url: https://
+        url: https://www.hindawi.com/journals/scn/2021/4702469/
 
 awardgrants: true
 
@@ -79,6 +81,7 @@ awardgrant-list:
     ICC:
         title: ICC 2021 Student Grant
         fundsource: 'US National Science Foundation (NSF)'
+
 
        
 
@@ -106,6 +109,12 @@ skills-list:
     - Python
     - MySQL - MongoDB    
     - Git 
+
+
+resumes: true
+resume-list:
+    example:
+        title: Click here to download
 
 
 # do you want to display the theme attribution? true or false

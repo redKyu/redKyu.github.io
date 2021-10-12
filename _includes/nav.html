@@ -31,6 +31,17 @@
     {% include awardgrants.html %}
 {% endif %}
 
+{% if site.resumes %}
+    <nav class="nav-home">
+        <ul class="list">
+            <li class="item">
+                <h2>Resume / CV </h2>
+            </li>
+        </ul>
+    </nav>
+    {% include resumes.html %}
+{% endif %}
+
 {% if site.educations %}
     <nav class="nav-home">
         <ul class="list">

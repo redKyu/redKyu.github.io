@@ -1,0 +1,12 @@
+<section class="list">
+    {% for resume_hash in site.resume-list %}
+    {% assign resume = resume_hash[1] %}
+        <div class="item" style="text-align: center">
+        	
+                <a class="url" href="{{ site.url }}/resume_09_05.pdf" download="resume.pdf">
+                    <h3 class="title">{{ resume.title }}</h3>
+                </a>
+            
+        </div>
+    {% endfor %}
+</section>
